@@ -28,7 +28,7 @@ const Summary = () => {
       gastos: gastos,
       inversion: invest,
       utilidad: utilidadUser,
-      margen: (utilidadUser / ventasSuggest) * 100,
+      margen: (utilidadUser / ventasUser) * 100,
     },
   ];
 
