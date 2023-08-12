@@ -25,9 +25,10 @@ const ContainerProducts = () => {
           Uso personal: {quantityOfProducts.totalNotForSale}
           <span className="product-recognize mint"> </span>
         </p>
-        <p> inversionGc: $ <b>{moneyInvest.invest.toFixed(2)}</b></p>
-       
-        <p>inversionUsdt: $ <b>{moneyInvest.investUsdt.toFixed(2)}</b></p>
+       <div className="about-invest">
+       <p> inversionGc: $ <b>{moneyInvest.invest.toFixed(2)}</b></p>
+       <p>inversionUsdt: $ <b>{moneyInvest.investUsdt.toFixed(2)}</b></p>
+       </div>
 
 
       </div>

@@ -47,6 +47,10 @@
   gap: 20px;
   padding: 20px;
 }
+.about-invest{
+  display: flex;
+  gap: 10px;
+}
 
 @media screen and (max-width: 1000px) {
   .product-about{
@@ -57,9 +61,5 @@
     width: 100%;
     text-align: center;
   }
-  .product-about p:nth-of-type(3),
-  .product-about p:nth-of-type(4){
-    width: 100%;
-    justify-content: center;
-  }
+
 }
