@@ -40,8 +40,8 @@
   width: 73px;
   height: 42px;
   position: absolute;
-  left: -11px;
-  top: -2px;
+  left: -16px;
+  top: 4px;
   opacity: 0.75;
 }
 
@@ -57,4 +57,14 @@
 }
 .utility {
   margin: 18px 0px;
+}
+
+@media screen and (max-width: 750px) {
+  .summary{
+    gap: 50px;
+  }
+  .calc-resta .operator {
+    left: -26px;
+   
+  }
 }

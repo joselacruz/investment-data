@@ -57,8 +57,9 @@
     width: 100%;
     text-align: center;
   }
-  .product-about p {
-    font-size: 12px;
-    
+  .product-about p:nth-of-type(3),
+  .product-about p:nth-of-type(4){
+    width: 100%;
+    justify-content: center;
   }
 }
