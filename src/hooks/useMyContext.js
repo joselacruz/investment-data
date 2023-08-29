@@ -136,7 +136,7 @@ const products = [
     price: 55.99,
     link: "https://www.amazon.com/-/es/gp/product/B0B7HT6SVS",
     cantidad: 1,
-    priceV1: 110,
+    priceV1: 115,
     useForSell: true,
   },
   {
@@ -180,7 +180,7 @@ const products = [
     price: 49.99,
     link: "https://www.amazon.com/-/es/gp/product/B09L4YMVM3/",
     cantidad: 1,
-    priceV1: 115,
+    priceV1: 110,
     useForSell: true,
   },
 ];

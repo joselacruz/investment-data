@@ -32,7 +32,7 @@ const ProductCard = ({ product }) => {
         by Jc ${product.priceV1}
       </p>
       <a
-        href="https://www.amazon.com/-/es/gp/product/B09NVQ8SP6"
+        href={product.link}
         className="product-link"
       >
         Ver en Amazon
